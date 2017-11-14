@@ -4,7 +4,7 @@ Developing a complicated query requires looking at the data it produces, testing
 
 ## How to structure your query
 
-One of the features of the QueryHoner is that it can iteratively run you query over a longer time period until you have enough data to perform your tests. To enable this feature, your query must include ':days', which the query will iteratively replace with larger numbers. For example:
+One of the features of the QueryHoner is that it can iteratively run you query over a longer time period until you have enough data to perform your tests. To enable this feature, your query must include `:days`, which the query will iteratively replace with larger numbers. For example:
 
 ```sql
 select
@@ -26,8 +26,8 @@ ipython                   6.1.0
 jupyter                   1.0.0   
 matplotlib                2.1.0   
 notebook                  5.0.0   
-numpy                     1.13.3
-pandas                    0.20.3  
+numpy                     1.13.3 
+pandas                    0.20.3
 python                    3.6.3  
 scipy                     0.19.1  
 seaborn                   0.8.0   
