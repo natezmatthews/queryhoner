@@ -4,7 +4,7 @@ Developing a complicated query requires looking at the data it produces, testing
 
 ## How to structure your query
 
-One of the features of the QueryHoner is that it can iteratively run you query over a longer time period until you have enough data to perform your tests. To enable this feature, your query must include `:days`, which the query will iteratively replace with larger numbers. For example:
+One of the features of the QueryHoner is that it can iteratively run your query over a longer time period until you have enough data to perform your tests. To enable this feature, your query must include `:days`, which the query will iteratively replace with larger numbers. For example:
 
 ```sql
 select
